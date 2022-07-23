@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Intro to Tailwind</title>
+</head>
+<body class="font-sans text-lime-900">
+
+    <header class="border-b border-lime-900">
+        <div class="w-full bg-lime-800 text-slate-50 py-3 relative">
+            <p class="text-center">
+                Get your dream house in a week.
+            </p>
+            <p class="absolute right-5 top-3">
+                x
+            </p>
+        </div>
+        <div class="container mx-auto px-4">
+            <div class="py-3 flex flex-col md:flex-row md:justify-between justify-center md:text-xl sm:text-lg text-md">
+                <a href="#" class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300 text-center md:text-left md:mb-0 mb-4">
+                    <span class="sm:px-3 px-2 bg-lime-800 rounded-md mr-1"></span>
+                    Realco
+                </a>
+                <ul class="flex md:justify-end justify-center gap-6 md:flex-row flex-col text-center">
+                    <li class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300">
+                        <a href="">Home</a>
+                    </li>
+                    <li class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300">
+                        <a href="">About</a>
+                    </li>
+                    <li class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300">
+                        <a href="">Contact</a>
+                    </li>
+                    <li class="hover:-translate-y-1 hover:scale-110 hover:text-lime-600 duration-300">
+                        <a href="">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="font-mono lg:text-2xl sm:text-lg text-md">
+
+        <section class="first-wrap">
+            <div class="container mx-auto px-4">
+                <div class="first flex lg:flex-row flex-col">
+                    <div class="lg:w-1/2 w-full bg-neutral-100 relative">
+                        <img class="sm:block hidden" src="img/bg_1.png" alt="bg_1">
+                        <div class="sm:absolute xl:w-5/6 lg:w-full md:w-5/6 xl:pl-20 lg:pl-16 sm:pl-20 sm:py-0 py-5 lg:top-14 top-40">
+                            <span class="bg-neutral-300 py-1 px-2 rounded-md text-lg">
+                                Find your dream place
+                            </span>
+                            <h1 class="xl:text-5xl md:text-4xl text-2xl my-3">
+                                Find house for your family in minutes
+                            </h1>
+                            <p class="mb-3 text-lg">
+                                Aenean sodales mauris quis tellus facilisis, vel mattis magna. Interdum curabitur eget aliquam elit in mauris purus.
+                            </p>
+                            <label><input type="search" placeholder="Search" class="py-2 pl-2 border border-neutral-300 rounded-md mb-3 sm:w-3/5 w-full"></label>
+                            <button class="text-white bg-amber-500 text-center p-3 sm:w-2/5 w-full rounded-md text-lg">
+                                Find property
+                            </button>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 w-full">
+                        <img src="img/img_1.png" alt="img_1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="second-wrap my-10 text-center">
+            <div class="container mx-auto px-4">
+                <h2 class="md:text-5xl sm:text-3xl text-2xl mb-3">
+                    How it works
+                </h2>
+                <p class="mb-5 xl:text-2xl md:text-xl text-base">
+                    Nunc laoreet consequat nunc at consequat. Praesent aliquam mi id efficitur pellentesque. Maecenas varius felis felis.
+                </p>
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-3">
+                    <div class="border border-neutral-300 sm:p-5 p-3 rounded-md">
+                        <img class="mx-auto mb-3" src="img/icon-1.png" alt="icon-1">
+                        <p class="mb-3 sm:text-3xl text-xl">
+                            Find property
+                        </p>
+                        <p class="xl:text-2xl md:text-xl text-base">
+                            Odales mauris quis tellus facilisis, vel mattis magna interdum. Curabitur eget aliquam elit. In mauris purus, auctor a eleifend non.
+                        </p>
+                    </div>
+                    <div class="border border-neutral-300 sm:p-5 p-3 rounded-md">
+                        <img class="mx-auto mb-3" src="img/icon-2.png" alt="icon-2">
+                        <p class="mb-3 sm:text-3xl text-xl">
+                            Make a deal
+                        </p>
+                        <p class="xl:text-2xl md:text-xl text-base">
+                            Pellentesque suscipit mauris. Nam dictum, erat a volutpat varius, urna nisi sollicitudin orci, sagittis facilisis odio tortor ac mi.
+                        </p>
+                    </div>
+                    <div class="border border-neutral-300 sm:p-5 p-3 rounded-md">
+                        <img class="mx-auto mb-3" src="img/icon-3.png" alt="icon-3">
+                        <p class="mb-3 sm:text-3xl text-xl">
+                            Get your keys
+                        </p>
+                        <p class="xl:text-2xl md:text-xl text-base">
+                            Nulla vel bibendum purus. Etiam tempus quam vel pulvinar rutrum. Duis semper, metus vitae fermentum consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
